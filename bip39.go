@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"strings"
 
-	"golang.org/x/crypto/pbkdf2"
+	"github.com/golang/crypto/pbkdf2"
 )
 
 // Some bitwise operands for working with big.Ints
